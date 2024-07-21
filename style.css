@@ -1,0 +1,55 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(206, 204, 204);
+    margin: 3px;
+    flex: 1 1 100vw;
+}
+
+    
+#plano1{
+    
+}
+
+#plano2{
+    
+}
+
+header{
+    border: solid red 1px;
+    flex: 1 1 100vw;
+    
+}
+img{
+    
+   
+    width: 10vw;
+    height: 10vw;
+    flex: 1 1 100vw;
+}
+
+main{
+    border: solid yellow 1px;
+    flex: 1 1 100vw;
+    color: rgb(8, 8, 8);
+}
+
+nav{
+    border: solid blue 1px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+}
+
+
+footer{
+    border: solid green 1px;
+    flex: 1 1 100vw;
+   
+}
+
