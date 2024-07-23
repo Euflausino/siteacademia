@@ -13,10 +13,14 @@ body{
     
 #plano1{
     
+    
+    
 }
 
 #plano2{
-    
+   
+    margin-top: 20px;
+ 
 }
 
 header{
@@ -33,10 +37,18 @@ img{
 }
 
 main{
-    border: solid yellow 1px;
-    flex: 1 1 100vw;
-    color: rgb(8, 8, 8);
+    border: solid blue 1px;
+    display: flex;
+    justify-content: center;
+    flex: 100vw;
+    gap: 50px;
+    margin: auto;
+    margin-top: 1vw;
+   
+    
 }
+    
+    
 
 nav{
     border: solid blue 1px;
