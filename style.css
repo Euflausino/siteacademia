@@ -10,6 +10,7 @@ body{
     background: rgb(0, 0, 0);
     margin: 3px;
     flex: 1 1 100vw;
+    overflow-x: hidden;
 }
 
     
@@ -29,6 +30,7 @@ body{
 
 
 header {
+    
     display: flex;
     justify-content: center;
     flex: 100vw;
@@ -37,6 +39,24 @@ header {
     margin-top: 1vw;
     color: white;
     
+    
+}
+
+
+.text1,
+.text2 {
+    width: 350px;
+}
+
+
+p{
+    
+    display: flex;
+    flex: 100vw;
+    justify-content: center;
+    color: white;
+    font-size: 20pt;
+    
 }
 
 
@@ -44,7 +64,7 @@ main{
 
     display: flex;
     justify-content: center;
-    flex: 100vw;
+    flex: 1 1 100vw;
     gap: 50px;
     margin: auto;
     margin-top: 1vw;
