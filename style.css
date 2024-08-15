@@ -16,17 +16,26 @@ body{
     
 
 #plano1, #plano2{
-    background: rgb(211, 211, 211);;
+    background-color: rgb(134, 3, 3);
     border: solid red 1px;
     border-radius: 5px;
   display: flex;
-  width: 165px;
+  width: 260px;
   justify-content: center;
-  height: 160px;
+  height: 300px;
   flex-wrap: wrap;
-    
-    
+  transition: transform 0.3s ease;
+
 }
+
+
+#plano1:hover{
+    transform: scale(1.1);
+}
+#plano2:hover{
+    transform: scale(1.1);
+}
+
 
 
 header {
@@ -83,6 +92,8 @@ main{
 }
 
 
+
+
     
 
 
@@ -96,8 +107,19 @@ main{
     width: 350px;
     margin: auto;
     justify-content: center;
+    transition: transform 0.3s ease;
 
 }
+#Box:hover{
+    transform: scale(1.1);
+
+}
+#jump:hover{
+    transform: scale(1.1);
+
+}
+
+
 
     
     
@@ -110,6 +132,22 @@ nav{
     gap: 100px;
     margin: auto;
 }
+
+i {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;           
+    padding: 10px;
+    border: solid red 3px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 50px;                
+    transition: transform 0.3s ease;
+}
+i:hover{
+    transform: scale(1.1);
+}
+
 
 
 footer{
