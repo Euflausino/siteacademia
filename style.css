@@ -1,0 +1,158 @@
+*{
+
+    margin: 10px;
+    padding: 0;
+}
+body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(0, 0, 0);
+    margin: 3px;
+    flex: 1 1 100vw;
+    overflow-x: hidden;
+}
+
+    
+
+#plano1, #plano2{
+    background-color: rgb(134, 3, 3);
+    border: solid red 1px;
+    border-radius: 5px;
+  display: flex;
+  width: 260px;
+  justify-content: center;
+  height: 300px;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease;
+
+}
+
+
+#plano1:hover{
+    transform: scale(1.1);
+}
+#plano2:hover{
+    transform: scale(1.1);
+}
+
+
+
+header {
+    
+    display: flex;
+    justify-content: center;
+    flex: 100vw;
+    gap: 50px;
+    margin: auto;
+    margin-top: 1vw;
+    color: white;
+    
+    
+}
+
+
+.text1,
+.text2 {
+    width: 350px;
+}
+
+
+p{
+    
+    display: flex;
+    flex: 100vw;
+    justify-content: center;
+    color: white;
+    font-size: 20pt;
+    
+}
+
+
+main{
+
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100vw;
+    gap: 50px;
+    margin: auto;
+    margin-top: 1vw;
+   
+    
+}
+
+
+#imagens{
+    
+    display: flex;
+    flex: 1 1 100vw ;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+
+
+
+    
+
+
+
+
+#Box, #jump{
+    border: solid red 2px;
+    display: flex;
+    border-radius: 5px;
+    height: 260px;
+    width: 350px;
+    margin: auto;
+    justify-content: center;
+    transition: transform 0.3s ease;
+
+}
+#Box:hover{
+    transform: scale(1.1);
+
+}
+#jump:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+    
+    
+
+nav{
+    background: rgb(211, 211, 211);
+    border: solid blue 1px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+}
+
+i {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;           
+    padding: 10px;
+    border: solid red 3px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 50px;                
+    transition: transform 0.3s ease;
+}
+i:hover{
+    transform: scale(1.1);
+}
+
+
+
+footer{
+    background-color: rgb(134, 3, 3);
+    border: solid green 1px;
+    flex: 1 1 100vw;
+   
+}
