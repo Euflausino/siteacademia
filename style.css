@@ -15,7 +15,7 @@ body{
 
     
 
-#plano1, #plano2{
+#plano1, #plano2, #plano3, #plano4{
     background-color: rgb(134, 3, 3);
     border: solid red 1px;
     border-radius: 5px;
@@ -33,6 +33,13 @@ body{
     transform: scale(1.1);
 }
 #plano2:hover{
+    transform: scale(1.1);
+}
+
+#plano3:hover{
+    transform: scale(1.1);
+}
+#plano4:hover{
     transform: scale(1.1);
 }
 
